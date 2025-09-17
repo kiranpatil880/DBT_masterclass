@@ -39,4 +39,11 @@ models:
   my_new_project:
     # Applies to all files under models/example/
     staging:
+      +query_tag: dbt
       +materialized: table
+  
+
+
+
+
+

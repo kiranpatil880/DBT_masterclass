@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+   - name: staging_table
+     database: dev_ingest
+     schema: kp_schema
+     tables:
+       - name: EMPLOYEES
+       - name: DEPARTMENTS
+
